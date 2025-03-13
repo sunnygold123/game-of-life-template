@@ -15,7 +15,7 @@ public class GameOfLife implements Board {
         for (int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[0].length; j++) {
                 board[i + x][j + y] = data[i][j];
-            }
+            } 
         }
     }
 
